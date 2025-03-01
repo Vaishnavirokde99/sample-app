@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -62,4 +62,4 @@ app.post("/items", async (req, res) => {
 const PORT = process.env.PORT || 5050;
 
 app.listen(PORT, "0.0.0.0", () => console.log(`Server running on port ${PORT}`));
->>>>>>> master
+
